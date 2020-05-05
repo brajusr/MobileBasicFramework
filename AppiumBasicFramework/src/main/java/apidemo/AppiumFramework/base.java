@@ -62,7 +62,7 @@ public class base {
 	public static AndroidDriver<AndroidElement> capabilities(String appName) throws IOException, InterruptedException {
 
 		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\practise\\AppiumFramework\\global.properties");
+				System.getProperty("user.dir") + "\\src\\main\\java\\apidemo\\AppiumFramework\\global.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
 

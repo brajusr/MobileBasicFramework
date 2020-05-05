@@ -11,7 +11,7 @@
   <test thread-count="5" name="Test">
     <classes>
 
-       <class name="practise.AppiumFramework.ApiDemoTest"/>
+       <class name="apidemo.AppiumFramework.ApiDemoTest"/>
      
     </classes>
   </test> <!-- Test -->
