@@ -37,7 +37,7 @@ public class ApiDemoTest extends base {
 		driver.findElementByClassName("android.widget.EditText").sendKeys(input);
 		// driver.findElementsByClassName("android.widget.Button").get(1).click();
 		p.buttons.get(1).click();
-		service.stop();
+		//service.stop();
 
 	}
 

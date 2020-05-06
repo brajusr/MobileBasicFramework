@@ -70,11 +70,11 @@ public class base {
 		File appDir = new File("src");
 		File app = new File(appDir, (String) prop.get(appName));
 		DesiredCapabilities capabilities = new DesiredCapabilities();
-		// String device=(String) prop.get("device");
+		String device=(String) prop.get("device");
 		//String device = System.getProperty("deviceName");
-		/*
-		 * if (device.contains("emulator")) { startEmulator(); }
-		 */
+		
+		if (device.contains("emulator")) { startEmulator(); }
+		 
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "E2");
 
 		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");

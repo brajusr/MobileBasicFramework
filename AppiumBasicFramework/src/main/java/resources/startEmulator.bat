@@ -1,2 +1,2 @@
-cd C:\Users\Owner\AppData\Local\Android\Sdk\emulator
-emulator -avd emulator-5554
+cd C:\Users\raju.baligolla\AppData\Local\Android\Sdk\emulator
+emulator -avd E2
